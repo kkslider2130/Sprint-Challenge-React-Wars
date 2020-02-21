@@ -1,8 +1,18 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+body {
+  height: 100vh;
+  margin: 1rem;
+  font-family: "Open Sans Condensed", sans-serif;
+  background: black;
 }
-.Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+
+h1,
+h2 {
+  font-size: 30px;
+  margin: 0 0 1rem 0;
+  border-bottom: 3px solid yellow;
 }
-/* write your parent styles in here for your App.js */
+p {
+  align-self: start;
+  color: white;
+}
